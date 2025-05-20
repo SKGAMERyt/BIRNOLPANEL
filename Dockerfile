@@ -1,5 +1,3 @@
-Dockerfile
- 
 FROM ubuntu:22.04
  
 ENV DEBIAN_FRONTEND=noninteractive
@@ -17,3 +15,4 @@ RUN chmod +x /start.sh
 EXPOSE 8080
  
 CMD ["/start.sh"]
+ 
